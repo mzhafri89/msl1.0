@@ -1,0 +1,85 @@
+body.main
+{
+background-image: url('/img/bc/light_l.png');    
+}
+table.main
+{
+background-color:#E8E8E8 ;
+-webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+table.sub
+{
+width: 100%;
+/*box-shadow: 10px 10px 20px #888888;*/
+-webkit-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow: 0 15px 10px -10px rgba(0, 0, 0, 0.5), 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+background-color:#FFFFFF ;
+/*border-bottom: 2px solid #FFAC40;*/
+/*border-right: 2px solid #FFAC40;*/
+}
+a.m_menu 
+{
+font-family: Impact;
+line-height: 1em;
+color: #c9c9c9;
+font-weight:bold;
+font-size: 40px;
+text-shadow:0px 0px 0 rgb(177,177,177),0px 1px 0 rgb(162,162,162),0px 2px 0 rgb(148,148,148),0px 3px 0 rgb(133,133,133),0px 4px 0 rgb(119,119,119),0px 5px 0 rgb(104,104,104), 0px 6px 0 rgb(90,90,90),0px 7px 6px rgba(0,0,0,1),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+text-decoration: none;
+}
+a.m_menu:hover 
+{
+font-family: Impact;
+line-height: 1em;
+color: #faa43a;
+font-weight:bold;
+font-size: 40px;
+text-shadow:0px 0px 0 rgb(226,140,34),0px 1px 0 rgb(211,125,19),0px 2px 0 rgb(197,111,5),0px 3px 0 rgb(182,96,-10),0px 4px 0 rgb(168,82,-24),0px 5px 0 rgb(153,67,-39), 0px 6px 0 rgb(139,53,-53),0px 7px 6px rgba(0,0,0,1),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+text-decoration: none;
+}
+td.title
+{
+font-family: Impact;
+line-height: 1em;
+color: #faa43a;
+font-weight:bold;
+font-size: 28px;
+text-shadow:0px 0px 0 rgb(226,140,34),0px 1px 0 rgb(211,125,19),0px 2px 0 rgb(197,111,5),0px 3px 0 rgb(182,96,-10),0px 4px 0 rgb(168,82,-24),0px 5px 0 rgb(153,67,-39), 0px 6px 0 rgb(139,53,-53),0px 7px 6px rgba(0,0,0,1),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+td.title_big
+{
+font-family: Impact;
+line-height: 1em;
+color: #faa43a;
+font-weight:bold;
+font-size: 35px;
+height:30px;
+text-shadow:0px 0px 0 rgb(226,140,34),0px 1px 0 rgb(211,125,19),0px 2px 0 rgb(197,111,5),0px 3px 0 rgb(182,96,-10),0px 4px 0 rgb(168,82,-24),0px 5px 0 rgb(153,67,-39), 0px 6px 0 rgb(139,53,-53),0px 7px 6px rgba(0,0,0,1),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+}
+img.q_menu:hover
+{
+transform: scale(1.5);
+-ms-transform: scale(1.5); /* IE 9 */
+-webkit-transform: scale(1.5); /* Safari and Chrome */
+-o-transform: scale(1.5); /* Opera */
+-moz-transform: scale(1.5); /* Firefox */
+}
+p.banner
+{
+font-family: Impact;
+line-height: 1em;
+color: #faa43a;
+font-weight:bold;
+font-size: 55px;
+text-shadow:0px 0px 0 rgb(226,140,34),0px 1px 0 rgb(211,125,19),0px 2px 0 rgb(197,111,5),0px 3px 0 rgb(182,96,-10),0px 4px 0 rgb(168,82,-24),0px 5px 0 rgb(153,67,-39), 0px 6px 0 rgb(139,53,-53),0px 7px 6px rgba(0,0,0,1),0px 7px 1px rgba(0,0,0,0.5),0px 0px 6px rgba(0,0,0,.2);
+text-decoration: none;
+}
+p.banner_mini
+{
+font-family: Impact;
+font-size: 15px;
+color: #c9c9c9;
+}

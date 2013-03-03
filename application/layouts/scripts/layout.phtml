@@ -1,0 +1,93 @@
+<?php
+$this->headMeta()->appendHttpEquiv('Content-Type', 'text/html;charset=utf-8');
+$this->headTitle()->setSeparator(' - ');
+$this->headTitle('MSL1.0');
+echo $this->doctype(); ?>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<?php echo $this->headMeta(); ?>
+<?php echo $this->headTitle(); ?>
+<?php 
+//css
+echo $this->headLink()->prependStylesheet($this->baseUrl().'/css/bootstrap.css')
+                      ->prependStylesheet($this->baseUrl().'/css/custom.css')
+                      ->prependStylesheet($this->baseUrl().'/css/bootstrap-responsive.min.css');
+//jquery
+echo $this->headScript()->prependFile($this->baseUrl().'/js/bootstrap.min.js')
+                        ->prependFile($this->baseUrl().'/js/jquery.js');
+?>
+</head>
+<body class="main">
+    <div class="row-fluid">
+        <div class="span2"></div>
+        <div class="span8">
+            <table class="sub">
+            <tr>
+                <td>
+                    <div class="row-fluid">
+                        <div class="span2">
+                            <img src="/img/teams/MSL_LOGO.png" width="150" height="150">
+                        </div>
+                        <div class="span10">
+                                <div class="span8">
+                                    <p class="banner">MALAYSIAN SUPER LEAGUE</p>
+                                </div>
+                            <div class="span2"><p class="banner_mini">Like Us On:</p>
+                                <div class="fb-like" data-href="http://www.facebook.com/pages/TM-Liga-Super/110469728980843?fref=ts&amp;rf=108176835881352" data-send="true" data-layout="button_count" data-width="450" data-show-faces="true" data-font="verdana"></div>
+                            </div>
+                            <div class="row-fluid">
+                                <div class="span12">
+                                     <a class="m_menu" href=""> NEWS </a>
+                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <a class="m_menu" href=""> LEAGUE </a>
+                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <a class="m_menu" href=""> CLUB </a>
+                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <a class="m_menu" href=""> PLAYER </a>
+                                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                                     <a class="m_menu" href=""> ABOUT </a>
+                                     <p></p>
+                                </div>
+                            </div>
+                        </div>
+                </td>
+            </tr>
+        </table>
+        </div>
+        <div class="span2"></div>
+    </div>
+    <br/>
+    <div class="row-fluid">
+        <div class="span2"></div>
+        <div class="span8">
+            <table class="sub" border="0">
+					<tr> 
+						<td align="center" class="title">TEAMS </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/PAHANG_LOGO.png" alt="PAHANG" title="PAHANG FA" height="38" width="38"> </a> </td> 
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/ATM_LOGO.png" alt="ATM" title="ATM" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/FELDA_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/JOHOR_FC_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/KELANTAN_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/LIONS_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/NS_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/PERAK_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/PKNS_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/SELANGOR_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/TERENGGANU_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+						<td align="center"> <a href="#"> <img class="q_menu" src="img/teams/T_TEAM_LOGO.png" alt="PAHANG" height="38" width="38"> </a> </td>
+					</tr>
+				</table>
+        </div>
+        <div class="span2"></div>
+    </div>
+<?php echo $this->layout()->content; ?>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+</body>
+</html>
